@@ -1,0 +1,27 @@
+INVITACIÓN · PREMIOS PEDRO BRAND
+================================
+
+Estructura
+  index.html        Página de la invitación
+  css/styles.css    Estilos
+  js/script.js      Conteo regresivo y ventanas de "Ver más"
+  img/              Fondo de portada, logo, relojes e íconos
+
+Cómo verla
+  Abre index.html en el navegador, o sube la carpeta completa a tu hosting
+  (Netlify, Vercel, GitHub Pages, cPanel, etc.).
+
+Cambiar fondos de las secciones
+  Al inicio de css/styles.css están estas variables:
+    --bg-hero, --bg-celebrar, --bg-fecha, --bg-info, --bg-detalles, --bg-footer
+  Copia tu imagen en img/ y reemplaza "none" por, por ejemplo:
+    --bg-celebrar: url('../img/fondo-celebrar.jpg');
+
+Cambiar un ícono
+  Reemplaza el archivo en img/ con el mismo nombre (ic-vestimenta.webp, etc.).
+
+Fecha del conteo
+  En js/script.js: new Date('2026-11-28T17:30:00-04:00')  (hora de RD)
+
+Ubicación
+  El botón "Cómo llegar" abre: https://maps.app.goo.gl/3XZE7swP6rt66KKSA
